@@ -9,7 +9,3 @@ func _ready() -> void:
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass
-
-func _on_area_2D_body_enterd(body)
-	if body.is_in_group(CharacterBody2D):
-	JUMP_VELOCITY = -600.0
